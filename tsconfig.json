@@ -4,7 +4,8 @@
     "paths": {
       "~common/*": ["./src/common/*"],
       "~features/*": ["./src/features/*"],
-      "~styles/*": ["./src/styles/*"]
+      "~styles/*": ["./src/styles/*"],
+      "~ui-toolkit/*": ["./src/ui-toolkit/*"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
