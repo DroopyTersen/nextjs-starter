@@ -1,11 +1,6 @@
-import "./DatePicker.scss";
-
 import * as React from "react";
-
 import { parseDate } from "../../utils/dateUtils";
-import { Button } from "../Button/Button";
 import { Input, InputSuffixButton } from "../forms";
-
 import { Calendar } from "./Calendar";
 import {
   useCalendarNavigation,

@@ -1,8 +1,6 @@
-import "./Modal.scss";
-
 import React, { useMemo, useState } from "react";
-
 import { Button } from "../Button/Button";
+
 export const Modal = ({ isOpen, close, title, children }: ModalProps) => {
   return (
     <div>

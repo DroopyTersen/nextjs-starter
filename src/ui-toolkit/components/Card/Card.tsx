@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "../Link/Link";
-import "./Card.scss";
 
 export const Card = ({
   title,
@@ -18,8 +17,7 @@ export const Card = ({
       {image && (
         <LinkWrapper href={url}>
           <img
-            style={{ height: imageSize, width: "100%" }}
-            className="card-img-top"
+            style={{ height: imageSize, width: "100%", objectFit: "cover" }}
             src={image}
             loading="lazy"
             alt={typeof title === "string" ? title : "Card Image"}
